@@ -12,7 +12,7 @@ def home():
 
 @app.route("/contacts")
 def cont():
-    return "welcome to my contactsname"
+    return render_template('index1.html')
 
 
 if(__name__=="__main__"):
